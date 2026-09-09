@@ -75,6 +75,13 @@ Use Reddit's native report tools or send Modmail to the community moderators.
 Include the blueprint post and the original source when reporting unauthorized
 redistribution.
 
+If you are the original creator and find your work published in this community
+without your permission, report the post or contact the community moderators
+through Modmail. Please provide the blueprint post, your original work, and any
+information that helps demonstrate authorship or usage rights. Moderators will
+review the claim, may request additional information, and take appropriate
+action on the reported post.
+
 These guidelines supplement the [SBB Blueprints Terms of Use](terms.html) and
 Reddit community rules. Data handling is described in the
 [SBB Blueprints Privacy Notice](privacy.html).
