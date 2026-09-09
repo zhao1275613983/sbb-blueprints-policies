@@ -1,6 +1,6 @@
 # SBB Blueprints Privacy Notice
 
-Effective date: September 6, 2026
+Effective date: September 9, 2026
 
 SBB Blueprints is a Reddit-hosted Devvit app for publishing and discovering
 Palworld blueprint posts. This notice describes the data used by the app. It
@@ -17,7 +17,12 @@ inside the Devvit Redis database assigned to that subreddit installation:
   tags, and Reddit-hosted preview-image URL supplied for the blueprint;
 - the blueprint code and a one-way SHA-256 hash used to reject exact duplicate
   codes; and
-- creation/update timestamps and internal metadata synchronization state.
+- creation/update timestamps, internal metadata synchronization state, and an
+  anonymous aggregate count of successful blueprint-code copies.
+
+When **Copy Code** succeeds, the app increments only the copied blueprint's
+aggregate counter. It does not store the reader's account ID or username, a
+per-reader copy history, or an individual copy timestamp.
 
 The app also uses short-lived operational records for rate limiting,
 authorization caching, edit locking, and navigation. The app does not request
